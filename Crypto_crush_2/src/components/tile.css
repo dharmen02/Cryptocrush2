@@ -1,0 +1,51 @@
+.sortable-handler {
+    touch-action: none;
+  }
+
+
+/* Define styles for the drag and drop effect */
+.tile {
+    /* Define styles for the candy pieces */
+    width: 50px;
+    height: 50px;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Define styles for the dropping effect */
+.is-being-replaced {
+    animation: swapAnimation 0.3s ease;
+  }
+  
+  @keyframes swapAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes highlight {
+    from { background-color: rgba(248, 248, 183, 0.3); } /* Adjust the opacity to make it less intense */
+    to { background-color: transparent; }
+  }
+  
+
+
+  .tile-padding {
+    padding: 0rem;
+    margin: 0.5rem;
+    @media (max-width: 640px) {
+      padding: 0.0rem;
+      margin: 0.4rem;
+
+    };
+  }
+
+  .glow {
+    box-shadow: 0 0 5px 2px green;
+  }

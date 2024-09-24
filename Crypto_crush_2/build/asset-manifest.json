@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/crypto-crush/static/css/main.63cf961b.css",
+    "main.js": "/crypto-crush/static/js/main.50d1df45.js",
+    "static/media/background.png": "/crypto-crush/static/media/background.3eaaddb2d24f045c9fcd.png",
+    "static/media/candyFive.png": "/crypto-crush/static/media/candyFive.e5f920d33e5c96dc5560.png",
+    "static/media/candyThree.png": "/crypto-crush/static/media/candyThree.2a59596574edcfc2e81b.png",
+    "static/media/candyTwo.png": "/crypto-crush/static/media/candyTwo.718f2604e3e3bf29af5c.png",
+    "static/media/candyOne.png": "/crypto-crush/static/media/candyOne.84da39f5668c3200d784.png",
+    "static/media/candySeven.png": "/crypto-crush/static/media/candySeven.1e86c20f77a61e516dde.png",
+    "static/media/candyFour.png": "/crypto-crush/static/media/candyFour.57b92ba71c9bc55d8a9a.png",
+    "index.html": "/crypto-crush/index.html",
+    "main.63cf961b.css.map": "/crypto-crush/static/css/main.63cf961b.css.map",
+    "main.50d1df45.js.map": "/crypto-crush/static/js/main.50d1df45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63cf961b.css",
+    "static/js/main.50d1df45.js"
+  ]
+}
